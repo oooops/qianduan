@@ -22,3 +22,7 @@ transition: all 0.3s;
   box-shadow: 0 8px 16px 0 rgba(7, 17, 27, .2);
 }
 ```
+## input透明无边框,输入文本时无边框
+border:0px;
+background-color:transparent
+```
