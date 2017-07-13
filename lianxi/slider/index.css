@@ -31,13 +31,13 @@ li{
 }
 
 .prev {
-  background: url("../light-box/icon/prev.png") no-repeat center center;
+  background: url("icon/prev.png") no-repeat center center;
   top: 207px;
   left: 5px;
 }
 
 .next {
-  background: url("../light-box/icon/next.png") no-repeat center center;
+  background: url("icon/next.png") no-repeat center center;
   top: 207px;
   right: 5px;
 }
