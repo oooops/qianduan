@@ -38,6 +38,7 @@ export default function () {
 }
 
 // import-default.js
+//不需要写出函数名字,直接引入
 import customName from './export-default';
 customName(); // 'foo'
 ```
