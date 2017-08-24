@@ -36,8 +36,8 @@ background-color:transparent
 export default function () {
   console.log('foo');
 }
-// export-default.js
-export default function () {
-  console.log('foo');
-}
+
+// import-default.js
+import customName from './export-default';
+customName(); // 'foo'
 ```
