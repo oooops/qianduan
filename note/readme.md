@@ -42,3 +42,19 @@ export default function () {
 import customName from './export-default';
 customName(); // 'foo'
 ```
+## VUE路由
+四步：
+1、定义组件
+2、定义路由策略
+const routes = [
+  { path: '/foo', component: Foo },
+  { path: '/bar', component: Bar }
+];
+3、创建路由实例
+    const router = new VueRouter({
+      routes
+    });
+4、挂载
+    const app = new Vue({
+      router
+    }).$mount('#app');
