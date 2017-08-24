@@ -43,7 +43,7 @@ import customName from './export-default';
 customName(); // 'foo'
 ```
 ## VUE路由
-四步：
+### 配置四步：  
 1、定义组件  
 2、定义路由策略
 const routes = [
