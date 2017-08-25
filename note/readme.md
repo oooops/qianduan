@@ -57,4 +57,17 @@ const router = new VueRouter({
  4、挂载  
  const app = new Vue({
       router
-    }).$mount('#app');
+    }).$mount('#app');
+## 在组件中v-for
+不加index会报错,不加v-bind:key也会报错,但是不加key在浏览器中没有问题 ,不加index也没有问题
+````
+<ul>
+      <!-- 第一种写法 -->
+      <li v-for="(item,index) in items" :key="index">{{item.title}}</li>
+      <!-- 第二种写法 -->
+      <template v-for="(item,index) in items">
+        <li :key="index">{{item.title}}</li>
+        <li :key="index">------------------</li>
+      </template>
+    </ul>
+```
